@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Form Results</title>
+</head>
+<body>
+    <h1 class="bg-primary text-light text-center col-3 my-5 mx-auto">Submitted Info</h1>
+    <p class="text-center col-3 my-5 mx-auto">Name: {{session['name']}}</p>
+    <p class="text-center col-3 my-5 mx-auto">Dojo Location: {{session['location']}}</p>
+    <p class="text-center col-3 my-5 mx-auto">Favorite Language: {{session['language']}}</p>
+    <p class="text-center col-3 my-5 mx-auto">Comment: {{session['comments']}}</p>
+    <a href="/" class="btn btn-primary">Go Back</a>
+</body>
+</html>
