@@ -1,2 +1,2 @@
-# python
-Python assignments
+# Dojo_Survey
+Dojo Survey Python assignment
